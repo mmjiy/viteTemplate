@@ -1,7 +1,7 @@
 import {base, toHumpObject} from "./base";
 import {isString,cloneObject,jsonParse,isFunction,each}  from "@lib/common/lib/utils";
 import mock from "./mock";
-import platform from "yesaway_platform3";
+import platform from "yesaway_platform_3";
 
 let handleFn = {
     data: []

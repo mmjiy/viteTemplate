@@ -1,4 +1,4 @@
-import platform from "yesaway_platform";
+import platform from "yesaway_platform_3";
 
 
 import {isObject,isArray,each} from "@lib/common/lib/utils.js"

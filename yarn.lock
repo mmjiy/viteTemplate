@@ -164,7 +164,7 @@
     "@vue/compiler-dom" "3.2.47"
     "@vue/shared" "3.2.47"
 
-"@vue/devtools-api@^6.4.5":
+"@vue/devtools-api@^6.0.0-beta.11", "@vue/devtools-api@^6.4.5":
   version "6.5.0"
   resolved "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.5.0.tgz#98b99425edee70b4c992692628fa1ea2c1e57d07"
   integrity sha512-o9KfBeaBmCKl10usN4crU53fYtC1r7jJwdGKjPT24t348rHxgfpZ0xL3Xm/gLUYnc0oTp8LAmrxOeLyu6tbk2Q==
@@ -592,10 +592,17 @@ vue@^3.2.47:
     "@vue/server-renderer" "3.2.47"
     "@vue/shared" "3.2.47"
 
-yesaway_platform@^1.0.30:
-  version "1.0.30"
-  resolved "https://registry.npmjs.org/yesaway_platform/-/yesaway_platform-1.0.30.tgz#9f36e78f75505a40c26b53daf1e927e7837cf3ff"
-  integrity sha512-KbwVD7Segx8f0sXgEwvWxrAIa1QqvJ1UP/k3VWiXkj+idBewSkleWX0wifwJ4c8ORdZj6BeRnt5XW8X0NHv6Yw==
+vuex@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.npmjs.org/vuex/-/vuex-4.1.0.tgz#aa1b3ea5c7385812b074c86faeeec2217872e36c"
+  integrity sha512-hmV6UerDrPcgbSy9ORAtNXDr9M4wlNP4pEFKye4ujJF8oqgFFuxDCdOLS3eNoRTtq5O3hoBDh9Doj1bQMYHRbQ==
+  dependencies:
+    "@vue/devtools-api" "^6.0.0-beta.11"
+
+yesaway_platform_3@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/yesaway_platform_3/-/yesaway_platform_3-1.0.0.tgz#ce49910150d445c8d468f99341c62fa11d26d0a1"
+  integrity sha512-+pwwnuLqJFledAZPtm+cvb6J7TRVDvTW/7z8Fym5hFmFI8NyNz+P0gk8jSteaoSgcmHluovIQLLrFR+bSBa/xA==
   dependencies:
     es6-proxy-polyfill "^2.1.1"
     qs "^6.9.1"

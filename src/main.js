@@ -3,6 +3,7 @@ import App from "@lib/App.vue"
 import router from "@lib/router/index.js"
 import server from "@lib/service/globalSetting/server.js";
 import routerSetTag from "@lib/service/globalSetting/routerSetTag.js";
+import store from "@lib/store/index.js"
 
 const init = async function (){
     window.store = store;
@@ -10,7 +11,7 @@ const init = async function (){
 
 
     await server();
-    await routerSetTag();
+    await routerSetTag(router);
 
 
 

@@ -13,7 +13,8 @@
     "sass": "^1.62.0",
     "vue": "^3.2.47",
     "vue-router": "4",
-    "yesaway_platform": "^1.0.30"
+    "vuex": "^4.1.0",
+    "yesaway_platform_3": "^1.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
